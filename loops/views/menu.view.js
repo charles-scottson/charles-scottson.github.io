@@ -24,7 +24,7 @@ Views.registerView("menu", {
     },
     htmlChangelog() {
         const html =
-        `<div style='display:inline-block;height:30px;margin-left:10px;' class='showthatH'>
+        `<div style='display:inline-block;height:30px;margin-left:10px;' class='showthatH' onclick=''>
             ${_txt("menu>changelog>meta>title")}
             <div style='max-width: 71px;' class='showthisH' id='changelog'>
                 ${this.versions()}
@@ -34,7 +34,7 @@ Views.registerView("menu", {
     },
     htmlSaveMenu() {
         const html =
-        `<div style='display:inline-block;height:30px;margin-left:10px;' class='showthatH'>
+        `<div style='display:inline-block;height:30px;margin-left:10px;' class='showthatH' onclick=''>
             ${_txt("menu>save>meta>title")}
             <div class='showthisH'>
                 <div class='button' onclick='save()'>${_txt("menu>save>manual_save")}</div>
@@ -76,7 +76,7 @@ Views.registerView("menu", {
     },
     htmlFAQMenu() {
         const html = 
-        `<div style='display:inline-block;height:30px;margin-left:10px;' class='showthatH'>
+        `<div style='display:inline-block;height:30px;margin-left:10px;' class='showthatH' onclick=''>
             ${_txt("menu>faq>meta>title")}
             <div class='showthisH'>
                 ${this.FAQs()}
@@ -86,7 +86,7 @@ Views.registerView("menu", {
     },
     htmlOptionsMenu() {
         const html =
-            `<div style='display:inline-block;height:30px;margin-left:10px;' class='showthatH'>
+            `<div style='display:inline-block;height:30px;margin-left:10px;' class='showthatH' onclick=''>
             ${_txt("menu>options>meta>title")}
             <div class='showthisH'>
                 <a target='_blank' href='${_txt("menu>options>discord>link")}'>${_txt("menu>options>discord>title")}</a><br>
