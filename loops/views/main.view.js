@@ -617,8 +617,8 @@ function View() {
             actionStoriesTown[i].style.display = "none";
             townInfos[i].style.display = "none";
         }
-        if (actionStoriesShowing) actionStoriesTown[townNum].style.display = "block";
-        else actionOptionsTown[townNum].style.display = "block";
+        if (actionStoriesShowing) actionStoriesTown[townNum].style.display = "flex";
+        else actionOptionsTown[townNum].style.display = "flex";
         townInfos[townNum].style.display = "block";
         document.getElementById("townName").textContent = _txt(`towns>town${townNum}>name`);
         document.getElementById("townDesc").textContent = _txt(`towns>town${townNum}>desc`);
@@ -634,11 +634,11 @@ function View() {
         if (stories) {
             document.getElementById("actionsViewLeft").style.visibility = "visible";
             document.getElementById("actionsViewRight").style.visibility = "hidden";
-            actionStoriesTown[townShowing].style.display = "block";
+            actionStoriesTown[townShowing].style.display = "flex";
         } else {
             document.getElementById("actionsViewLeft").style.visibility = "hidden";
             document.getElementById("actionsViewRight").style.visibility = "visible";
-            actionOptionsTown[townShowing].style.display = "block";
+            actionOptionsTown[townShowing].style.display = "flex";
         }
 
         document.getElementById("actionsTitle").textContent = _txt(`actions>title${(stories) ? "_stories" : ""}`);

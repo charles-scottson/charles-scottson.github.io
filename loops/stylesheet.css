@@ -377,21 +377,24 @@ input[type="number"] {
 }
 
 .actionOptions {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align:center;
-    min-height:470px;
 }
 
 .actionStories {
     text-align:center;
-    min-height:470px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .actionContainer {
     cursor:pointer;
-    width:102px;
+    width:100px;
     height:50px;
     vertical-align:top;
-    margin:0 2px;
+    margin:5px 5px;
     font-size: 13px;
 }
 .actionContainer:hover, .travelContainer:hover {
