@@ -381,6 +381,7 @@ input[type="number"] {
     flex-wrap: wrap;
     justify-content: center;
     text-align:center;
+    margin-bottom: 300px;
 }
 
 .actionStories {
@@ -656,7 +657,7 @@ input[type="number"] {
 #trackedResources {
     display: flex;
     justify-content: center;
-    margin-bottom: -15px;
+    margin: 5px 0px;
     height: 16px;
 }
 
