@@ -761,9 +761,9 @@
       Restarts automatically upon no actions left.]]></list_explanation>
         </tooltip>
         <current_action>
-            <mana_original>Mana Original:</mana_original>
+            <mana_original>Mana Cost:</mana_original>
             <mana_used>Mana Used:</mana_used>
-            <mana_remaining>Mana Remaining:</mana_remaining>
+            <mana_remaining>Mana Left Over:</mana_remaining>
             <gold_remaining>Gold Remaining:</gold_remaining>
             <time_spent>Time Spent:</time_spent>
             <failed_attempts>Failed Attempts:</failed_attempts>
